@@ -1,0 +1,65 @@
+spec_version: 1.0.0
+meta:
+  id: 468925b4-385e-4875-b146-0edd62f4880b
+  notion_page_id: 3f273f92-bdf6-80a4-b465-e9f1c99897b2
+  notion_database_id: 9d4735b9-e598-4ee9-9fbf-46604aa5880d
+  title: Compiler smoke test
+  slug: compiler-smoke-test
+  version: 1.0.0
+  compiled_at: '2026-10-08T03:30:51.028132+00:00'
+  compiler_version: 1.0.0
+artifact:
+  type: docs
+  template: shadowfox-docs-starter
+  target_framework: python
+  visibility: public
+  status: compile-ready
+  tags: []
+structure:
+  overview: (no overview extracted)
+  sections:
+  - id: 3e9b52e1-1c97-41a6-965d-72182ea435e2
+    heading: Overview
+    level: 1
+    slug: overview
+    content: ''
+    block_type: prose
+    semantic_tags: []
+    order: 0
+  code_blocks: []
+  assets: []
+build:
+  repo:
+    name: shadowfox-docs-compiler-smoke-test
+    org_or_user: RJHuey73
+    description: Compiler smoke test
+    topics: []
+    homepage: null
+    license: UNLICENSED
+    visibility: public
+  deploy:
+    target: github-pages
+    env_vars: []
+    deploy_hook_env_var: null
+    actions_workflow: null
+  sync:
+    notion_status_property: Compiler Status
+    notion_url_property: GitHub Repo
+    notify_on:
+    - compile
+    - deploy
+    - error
+governance:
+  owner_agent: extraction
+  review_required: true
+  auto_sync: true
+  retention_days: 365
+  archive_on_status:
+  - deprecated
+  max_recompile_frequency_hours: 1
+extraction_errors: []
+compiled_by: compiler-agent
+template_applied:
+  name: shadowfox-docs-starter
+  version: 1.2.0
+compiled_at_local: '2026-10-08T03:30:51.615827+00:00'
