@@ -1,7 +1,9 @@
-# GitHub Pages (Jekyll) config. The site title defaults to the repo name.
+# GitHub Pages (Jekyll) config. The Compiler appends `title` (the Notion page
+# title) and `description` (from the overview); the theme header shows them.
 markdown: kramdown
 theme: jekyll-theme-primer
 plugins:
   - jekyll-optional-front-matter
   - jekyll-titles-from-headings
   - jekyll-relative-links
+title: "Compiler smoke test"

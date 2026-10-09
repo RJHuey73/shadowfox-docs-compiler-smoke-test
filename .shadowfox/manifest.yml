@@ -1,13 +1,10 @@
 spec_version: 1.0.0
 meta:
-  id: 468925b4-385e-4875-b146-0edd62f4880b
   notion_page_id: 3f273f92-bdf6-80a4-b465-e9f1c99897b2
   notion_database_id: 9d4735b9-e598-4ee9-9fbf-46604aa5880d
   title: Compiler smoke test
   slug: compiler-smoke-test
   version: 1.0.0
-  compiled_at: '2026-10-08T03:30:51.028132+00:00'
-  compiler_version: 1.0.0
 artifact:
   type: docs
   template: shadowfox-docs-starter
@@ -18,8 +15,7 @@ artifact:
 structure:
   overview: (no overview extracted)
   sections:
-  - id: 3e9b52e1-1c97-41a6-965d-72182ea435e2
-    heading: Overview
+  - heading: Overview
     level: 1
     slug: overview
     content: ''
@@ -58,8 +54,8 @@ governance:
   - deprecated
   max_recompile_frequency_hours: 1
 extraction_errors: []
+spec_hash: efdf5948e7c9ba31c3086ecb89f22b0426222c149c2d5df76da3523104803ada
 compiled_by: compiler-agent
 template_applied:
   name: shadowfox-docs-starter
-  version: 1.2.0
-compiled_at_local: '2026-10-08T03:30:51.615827+00:00'
+  version: 1.3.0
